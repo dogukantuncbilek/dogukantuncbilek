@@ -20,14 +20,14 @@ I fix, extend and ship software that other people are afraid to touch.
 - IoT and mobile: Kotlin + RxAndroidBle companion apps, UART production-line test tooling, event-driven telemetry backends (Node/TypeScript, RabbitMQ, Redis, gRPC), React Native.
 - Small-team DevOps: k3s on Hetzner bare-metal, OpenTofu, ArgoCD, GitHub Actions, WireGuard, Nginx.
 
-**Repositories worth looking at** (small, focused, rewritten from scratch with open-source libraries)
+**Repositories worth looking at** (small, focused, written from scratch with open-source libraries; each has tests and CI)
 
 | Repo | What it does |
 |---|---|
 | [pdf-anchor-stamp](https://github.com/dogukantuncbilek/pdf-anchor-stamp) | Find a text marker inside a PDF (visible or invisible) and stamp an image or text at that exact spot. .NET 8, PdfPig + PDFsharp, CLI + library, tests. |
 | [hetzner-k3s-gitops-starter](https://github.com/dogukantuncbilek/hetzner-k3s-gitops-starter) | One Hetzner server, k3s, Argo CD app-of-apps, cert-manager, Sealed Secrets, CloudNativePG, kube-prometheus-stack. Rebuild from zero in 15 minutes. |
 | [receipt-ocr](https://github.com/dogukantuncbilek/receipt-ocr) | Receipt photos to JSON: OpenCV preprocessing (bilateral, CLAHE, adaptive thresholds), competing Tesseract strategies ranked by confidence, field extraction. FastAPI + Vue 3. |
-| `hybridcache-redis-tags` | .NET 10 HybridCache + Redis with tag-based invalidation and health checks. *(planned)* |
+| [hybridcache-redis-tags](https://github.com/dogukantuncbilek/hybridcache-redis-tags) | .NET 10 HybridCache + Redis: tag-based invalidation that crosses instances, stampede protection, readiness check. Runnable sample with two-instance tests. |
 
 **How I work:** read the existing code first, explain the root cause before changing anything, keep changes small and tested, write down what I did.
 

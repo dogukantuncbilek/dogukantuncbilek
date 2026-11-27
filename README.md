@@ -1,6 +1,15 @@
 # Doğukan Tunçbilek
 
-Senior software engineer, Ankara (UTC+3). I fix, extend and ship software that other people are afraid to touch.
+Senior software engineer. Curious about anything new, and the kind of person who loses sleep over a bug until it is understood.
+
+```asm
+xor   sleep, sleep      ; sleep = 0
+mov   ecx, coffee
+rep   call analyze
+; exit code: 0xC0FFEE
+```
+
+I fix, extend and ship software that other people are afraid to touch.
 
 **What I do**
 

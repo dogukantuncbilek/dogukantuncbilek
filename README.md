@@ -24,7 +24,7 @@ I fix, extend and ship software that other people are afraid to touch.
 
 | Repo | What it does |
 |---|---|
-| `pdf-anchor-stamp` | Find a text marker inside a PDF and stamp an image or text at that exact spot. .NET 8, PdfPig + PDFsharp. *(in progress)* |
+| [pdf-anchor-stamp](https://github.com/dogukantuncbilek/pdf-anchor-stamp) | Find a text marker inside a PDF (visible or invisible) and stamp an image or text at that exact spot. .NET 8, PdfPig + PDFsharp, CLI + library, tests. |
 | `hetzner-k3s-gitops-starter` | OpenTofu → Hetzner → k3s → ArgoCD app-of-apps with cert-manager, Sealed Secrets, CloudNativePG and monitoring. *(planned)* |
 | `receipt-ocr` | Receipt OCR with OpenCV preprocessing and Tesseract/EasyOCR, Vue 3 front end. *(planned)* |
 | `hybridcache-redis-tags` | .NET 10 HybridCache + Redis with tag-based invalidation and health checks. *(planned)* |

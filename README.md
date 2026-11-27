@@ -26,7 +26,7 @@ I fix, extend and ship software that other people are afraid to touch.
 |---|---|
 | [pdf-anchor-stamp](https://github.com/dogukantuncbilek/pdf-anchor-stamp) | Find a text marker inside a PDF (visible or invisible) and stamp an image or text at that exact spot. .NET 8, PdfPig + PDFsharp, CLI + library, tests. |
 | [hetzner-k3s-gitops-starter](https://github.com/dogukantuncbilek/hetzner-k3s-gitops-starter) | One Hetzner server, k3s, Argo CD app-of-apps, cert-manager, Sealed Secrets, CloudNativePG, kube-prometheus-stack. Rebuild from zero in 15 minutes. |
-| `receipt-ocr` | Receipt OCR with OpenCV preprocessing and Tesseract/EasyOCR, Vue 3 front end. *(planned)* |
+| [receipt-ocr](https://github.com/dogukantuncbilek/receipt-ocr) | Receipt photos to JSON: OpenCV preprocessing (bilateral, CLAHE, adaptive thresholds), competing Tesseract strategies ranked by confidence, field extraction. FastAPI + Vue 3. |
 | `hybridcache-redis-tags` | .NET 10 HybridCache + Redis with tag-based invalidation and health checks. *(planned)* |
 
 **How I work:** read the existing code first, explain the root cause before changing anything, keep changes small and tested, write down what I did.

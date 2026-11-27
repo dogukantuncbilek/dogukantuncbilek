@@ -37,7 +37,8 @@ I build, extend and keep business systems running in production.
 - Cross-instance cache invalidation with .NET 10 HybridCache, Redis tags and a pub/sub bridge, proven by a two-instance test: [hybridcache-redis-tags](https://github.com/dogukantuncbilek/hybridcache-redis-tags).
 - Single-server GitOps platform on Hetzner (OpenTofu, k3s, Argo CD, cert-manager, Sealed Secrets, CloudNativePG, Prometheus), rebuilt from zero in 15 minutes: [hetzner-k3s-gitops-starter](https://github.com/dogukantuncbilek/hetzner-k3s-gitops-starter).
 - Thermal receipt OCR with OpenCV preprocessing and competing Tesseract strategies, FastAPI + Vue 3: [receipt-ocr](https://github.com/dogukantuncbilek/receipt-ocr).
+- Remote C# scripting for long-running .NET hosts: scripts served by a TypeScript server, compiled at runtime with Roslyn into a collectible AssemblyLoadContext, cached by source hash, checked against a forbidden-API policy before compilation, re-fetched on ETag change; .NET 11 engine and console host, Fastify server, 19 xUnit + 13 vitest tests: [roslyn-remote-scripts](https://github.com/dogukantuncbilek/roslyn-remote-scripts).
 
 **How I work:** read the existing code first, explain the root cause before changing anything, keep changes small and tested, write down what I did.
 
-Available for contract and freelance work. Website: [dogukantuncbilek.github.io](https://dogukantuncbilek.github.io) · Upwork: [upwork.com/freelancers/dogukantuncbilek](https://www.upwork.com/freelancers/dogukantuncbilek)
+**Find me on:** [Portfolio](https://dogukantuncbilek.github.io) · [Upwork](https://www.upwork.com/freelancers/dogukantuncbilek) · [LinkedIn](https://www.linkedin.com/in/dogukan-tuncbilek)

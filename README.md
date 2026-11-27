@@ -10,7 +10,7 @@ rep   call analyze
 ; exit code: 0xC0FFEE
 ```
 
-I fix, extend and ship software that other people are afraid to touch.
+I build, extend and keep business systems running in production.
 
 **What I do**
 
@@ -28,7 +28,16 @@ I fix, extend and ship software that other people are afraid to touch.
 | [hetzner-k3s-gitops-starter](https://github.com/dogukantuncbilek/hetzner-k3s-gitops-starter) | One Hetzner server, k3s, Argo CD app-of-apps, cert-manager, Sealed Secrets, CloudNativePG, kube-prometheus-stack. Rebuild from zero in 15 minutes. |
 | [receipt-ocr](https://github.com/dogukantuncbilek/receipt-ocr) | Receipt photos to JSON: OpenCV preprocessing (bilateral, CLAHE, adaptive thresholds), competing Tesseract strategies ranked by confidence, field extraction. FastAPI + Vue 3. |
 | [hybridcache-redis-tags](https://github.com/dogukantuncbilek/hybridcache-redis-tags) | .NET 10 HybridCache + Redis: tag-based invalidation that crosses instances, stampede protection, readiness check. Runnable sample with two-instance tests. |
+| [roslyn-remote-scripts](https://github.com/dogukantuncbilek/roslyn-remote-scripts) | Fetch C# scripts from a TypeScript script server, compile them at runtime with Roslyn inside a collectible AssemblyLoadContext, run them against a host API with hash-based caching and compile diagnostics. .NET 11 + TypeScript, tests and CI. |
+
+**Selected work** (anonymised; details and images on [dogukantuncbilek.github.io](https://dogukantuncbilek.github.io))
+
+- Digital approval workflow for work-order documents in an enterprise ERP (client under NDA): invisible report markers, PDF text search, approval seal drawn at the exact spot, GUID-registered documents, SMS/e-mail/push with one-time verify links, replay protection; 9 stored procedures, 2 TVPs, test suite 34 → 179. The stamping step lives on as [pdf-anchor-stamp](https://github.com/dogukantuncbilek/pdf-anchor-stamp).
+- Marker-anchored PDF stamping library and CLI for .NET 8: [pdf-anchor-stamp](https://github.com/dogukantuncbilek/pdf-anchor-stamp).
+- Cross-instance cache invalidation with .NET 10 HybridCache, Redis tags and a pub/sub bridge, proven by a two-instance test: [hybridcache-redis-tags](https://github.com/dogukantuncbilek/hybridcache-redis-tags).
+- Single-server GitOps platform on Hetzner (OpenTofu, k3s, Argo CD, cert-manager, Sealed Secrets, CloudNativePG, Prometheus), rebuilt from zero in 15 minutes: [hetzner-k3s-gitops-starter](https://github.com/dogukantuncbilek/hetzner-k3s-gitops-starter).
+- Thermal receipt OCR with OpenCV preprocessing and competing Tesseract strategies, FastAPI + Vue 3: [receipt-ocr](https://github.com/dogukantuncbilek/receipt-ocr).
 
 **How I work:** read the existing code first, explain the root cause before changing anything, keep changes small and tested, write down what I did.
 
-Available for contract and freelance work. Upwork: [upwork.com/freelancers/dogukantuncbilek](https://www.upwork.com/freelancers/dogukantuncbilek)
+Available for contract and freelance work. Website: [dogukantuncbilek.github.io](https://dogukantuncbilek.github.io) · Upwork: [upwork.com/freelancers/dogukantuncbilek](https://www.upwork.com/freelancers/dogukantuncbilek)

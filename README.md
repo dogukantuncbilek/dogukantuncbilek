@@ -3,9 +3,10 @@
 Senior software engineer. Curious about anything new, and the kind of person who loses sleep over a bug until it is understood.
 
 ```asm
-xor   sleep, sleep      ; sleep = 0
+xor   sleep, sleep
 mov   ecx, coffee
 rep   call analyze
+
 ; exit code: 0xC0FFEE
 ```
 
